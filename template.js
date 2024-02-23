@@ -16,11 +16,18 @@ console.log(math);
 
 
 //example 3 : 
-const email = 'rakib onek vlo sele \n' + 
-'kintu theke theke kharap hoi'
+const email = 'rakib onek vlo sele \n' +
+    'kintu theke theke kharap hoi'
 console.log(email);
 
 // opor er onsho k template diye krle 
-const emamil2 =`rakib onek vlo sele 
+const emamil2 = `rakib onek vlo sele 
 kintu theke theke kharap hoi`;
-console.log(emamil2)
+console.log(emamil2);
+
+
+// example templat dara obj theke array theke variabl neoya jai
+const array = [10, 20, 30, 40];
+const students = { name: 'rakib', age: 22 };
+const arrayAndAtudents = `the sum is : ${array[1]} and ${students.age} is ${array[1] + students.age}`
+console.log(arrayAndAtudents)
