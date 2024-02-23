@@ -22,4 +22,4 @@ console.log(friends);
 
 // ai vabeo push kora jai 
 const numberss =[...friends, 199999];
-console.log(numberss)
+console.log(numberss);

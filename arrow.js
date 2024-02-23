@@ -29,7 +29,7 @@ console.log(math2);
 
 
 
-console.log('arrow function')
+console.log('arrow function');
 // arrow function
 const add3 = (a, b) => a + b;
 
