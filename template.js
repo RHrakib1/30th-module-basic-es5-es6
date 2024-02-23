@@ -26,7 +26,7 @@ kintu theke theke kharap hoi`;
 console.log(emamil2);
 
 
-// example templat dara obj theke array theke variabl neoya jai
+// example templat dara obj theke array theke variable neoya jai
 const array = [10, 20, 30, 40];
 const students = { name: 'rakib', age: 22 };
 const arrayAndAtudents = `the sum is : ${array[1]} and ${students.age} is ${array + students.age}`

@@ -11,10 +11,10 @@
 
 console.log('function declaration')
 // function declaration
-function add(a, b) {
+function add1(a, b) {
     return a + b;
 }
-const math = add(10, 2);
+const math = add1(10, 2);
 console.log(math);
 
 
@@ -24,7 +24,7 @@ console.log('function expration')
 const add2 = function (a, b) {
     return a + b;
 }
-const math2 = add(10, 2);
+const math2 = add2(10, 2);
 console.log(math2);
 
 
@@ -33,7 +33,7 @@ console.log('arrow function')
 // arrow function
 const add3 = (a, b) => a + b;
 
-const math3 = add(10, 2);
+const math3 = add3(10, 2);
 console.log(math3);
 
 // example
